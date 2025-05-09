@@ -1,5 +1,6 @@
 function PlayerList({ players }) {
-  if (players.length === 0) return <p>Nenhum jogador encontrado.</p>;
+  if (players.length === 0)
+    return <p style={{ textAlign: "center", marginTop: "2rem" }}>Verifique se o nome foi digitado corretamente.</p>;
 
   return (
     <div className="player-list-container">
