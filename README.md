@@ -4,7 +4,7 @@ Aplicação desenvolvida como parte do Projeto 1 da disciplina de **Programaçã
 
 ## Descrição
 
-O projeto permite buscar jogadores da NBA por nome, utilizando a API pública **[balldontlie.io](https://www.balldontlie.io/)**. O usuário insere o nome do jogador, e os resultados são listados dinamicamente na tela. A aplicação inclui validação de campos, gerenciamento de estado global com Context API, e layout responsivo com scroll automático para listas longas.
+O projeto permite buscar jogadores da NBA por nome, utilizando a API pública **[balldontlie.io](https://www.balldontlie.io/)**. O usuário insere o nome do jogador, e os resultados são listados dinamicamente na tela. A aplicação inclui validação de campos, gerenciamento de estado global com Context API, uso de hooks especializados e deploy em servidor web.
 
 ## Funcionalidades
 
@@ -14,6 +14,7 @@ O projeto permite buscar jogadores da NBA por nome, utilizando a API pública **
 -  Listagem dos jogadores encontrados
 -  Mensagem de erro clara quando nenhum jogador for encontrado
 -  Estilo limpo e responsivo com CSS
+-  Uso do hook especializado (`useMemo`) para otimizar renderização da lista
 
 ## Tecnologias usadas
 
@@ -22,6 +23,7 @@ O projeto permite buscar jogadores da NBA por nome, utilizando a API pública **
 - Context API (`useContext`)
 - Fetch API
 - CSS
+- Hook especializado: (`useMemo`)
 
 ## Estrutura do projeto
 
